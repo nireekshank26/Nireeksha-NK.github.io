@@ -1871,24 +1871,3 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .social-list { justify-content: center; }
 
-
-
-  //* Fix Resume Section Overflow */
-.resume {
-    max-width: 100%;
-    overflow-x: hidden;
-    white-space: normal;
-}
-
-/* Ensure Timeline Items Stay Within Bounds */
-.timeline-list {
-    font-size: var(--fs-6);
-    margin-left: 10px; /* Reduce margin */
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-/* Prevent Horizontal Scrolling */
-body {
-    overflow-x: hidden;
-}
